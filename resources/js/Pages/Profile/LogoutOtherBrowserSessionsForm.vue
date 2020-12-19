@@ -35,7 +35,7 @@
                             <div class="text-xs text-gray-500">
                                 {{ session.ip_address }},
 
-                                <span class="text-green-500 font-semibold" v-if="session.is_current_device">This device</span>
+                                <span class="text-green-500 font-semibold" v-if="session.is_current_device">Esse dispositivo</span>
                                 <span v-else>Last active {{ session.last_active }}</span>
                             </div>
                         </div>
@@ -45,25 +45,25 @@
 
             <div class="flex items-center mt-5">
                 <jet-button @click.native="confirmLogout">
-                    Logout Other Browser Sessions
+                    Desconectar de outras sessões
                 </jet-button>
 
                 <jet-action-message :on="form.recentlySuccessful" class="ml-3">
-                    Done.
+                    Feito.
                 </jet-action-message>
             </div>
 
             <!-- Logout Other Devices Confirmation Modal -->
             <jet-dialog-modal :show="confirmingLogout" @close="confirmingLogout = false">
                 <template #title>
-                    Logout Other Browser Sessions
+                    Desconectar de outras sessões
                 </template>
 
                 <template #content>
-                    Please enter your password to confirm you would like to logout of your other browser sessions across all of your devices.
+                    Por favor, digite a sua senha para confirmar o logout nos outros navegadores e dispositivos.
 
                     <div class="mt-4">
-                        <jet-input type="password" class="mt-1 block w-3/4" placeholder="Password"
+                        <jet-input type="password" class="mt-1 block w-3/4" placeholder="Senha"
                                     ref="password"
                                     v-model="form.password"
                                     @keyup.enter.native="logoutOtherBrowserSessions" />
@@ -74,11 +74,11 @@
 
                 <template #footer>
                     <jet-secondary-button @click.native="confirmingLogout = false">
-                        Nevermind
+                        Cancelar
                     </jet-secondary-button>
 
                     <jet-button class="ml-2" @click.native="logoutOtherBrowserSessions" :class="{ 'opacity-25': form.processing }" :disabled="form.processing">
-                        Logout Other Browser Sessions
+                        Deslogar das outras sessões
                     </jet-button>
                 </template>
             </jet-dialog-modal>

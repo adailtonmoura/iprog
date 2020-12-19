@@ -2,7 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4f6308d-af80-46e6-b598-67f673e247e0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/views/components/application-logo.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/components/application-mark.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/Pages/Profile/LogoutOtherBrowserSessionsForm.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/Pages/Profile/LogoutOtherBrowserSessionsForm.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/Pages/Profile/UpdatePasswordForm.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/Pages/Profile/UpdatePasswordForm.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/Pages/Profile/UpdateProfileInformationForm.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/Pages/Profile/UpdateProfileInformationForm.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,13 +158,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/components" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/views/components" />
       <recent name="$PROJECT_DIR$/resources/js" />
     </key>
   </component>
@@ -174,7 +185,9 @@
       <updated>1608274622833</updated>
       <workItem from="1608274629827" duration="2430000" />
       <workItem from="1608308245027" duration="276000" />
-      <workItem from="1608322425560" duration="5713000" />
+      <workItem from="1608322425560" duration="6024000" />
+      <workItem from="1608349094421" duration="4819000" />
+      <workItem from="1608398613009" duration="3036000" />
     </task>
     <servers />
   </component>
@@ -191,5 +204,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
